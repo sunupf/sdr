@@ -1,0 +1,13 @@
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var s,t; s = document.createElement('script'); s.type = 'text/javascript';
+        s.src = 'https://omnichannel.qiscus.com/js/qismo-v4.js'; s.async = true;
+        s.onload = s.onreadystatechange = function() { new Qismo('qiscuscs-5xm3wgs5fc1p', {
+                        options: {
+                            channel_id: 130875, qismoIframeUrl: 'https://omnichannel.qiscus.com', baseUrl: 'https://omnichannel.qiscus.com',
+                            extra_fields: [], 
+                        }
+                    }); }
+        t = document.getElementsByTagName('script')[0]; t.parentNode.insertBefore(s, t);
+    });
+</script>
